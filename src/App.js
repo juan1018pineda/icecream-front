@@ -14,7 +14,7 @@ import "./App.css";
 function App() {
   const [icecreams, setIcecreams] = useState([]);
 
-  useEffect(async () => {
+  useEffect(() => {
     async function fetch() {
       const data = await getIcecreamFetch();
       setIcecreams(data);
