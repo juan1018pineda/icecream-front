@@ -19,7 +19,7 @@ function App() {
       const data = await getIcecreamFetch();
       setIcecreams(data);
     }
-    fetch();
+    fetch();y
   }, []);
 
   return (
