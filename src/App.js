@@ -6,7 +6,7 @@ import IcecreamList from "./components/IcecreamList";
 
 // import { API_URL } from "./constants";
 // import { getIcecreamAxios } from "./api/icecream";
-// import { getIcecreamFetch } from "./api/icecream";
+import { getIcecreamFetch } from "./api/icecream";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
