@@ -15,9 +15,11 @@ function App() {
   const [icecreams, setIcecreams] = useState([]);
 
   useEffect(async () => {
-    // getIcecreamFetch();
-    const data = await getIcecreamAxios();
-    setIcecreams(data);
+    async function fetch() {
+      const data = await getIcecreamFetch();
+      setIcecreams(data);
+    }
+    fetch();
   }, []);
 
   return (
